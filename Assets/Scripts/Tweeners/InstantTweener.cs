@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InstantTweener : MonoBehaviour
+public class InstantTweener : MonoBehaviour, IObjectTweener
 {
     public void MoveTo(Transform transform, Vector3 targetPosition)
     {
